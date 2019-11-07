@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.slideshow {
+    width:50%;
+    height: 50vh;
+    margin: 10vh auto;
+    background: rgb(226, 225, 225);
+    border-radius: 50px;
+    position: relative;
+}
+
+.slideshow-block {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 70px;
+    
+}
+
+.heading {
+    color: rgb(49, 49, 179);
+    display: inline-block;
+    padding: 20px 20px;
+}
+
+.same-line {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.fas {
+    color: green;
+    background: rgb(180, 178, 178);
+    padding: 10px;
+    border-radius: 50%;
+    position: absolute;
+    cursor: pointer;
+}
+
+.fa-arrow-right {
+    
+    top: 45%;
+    right: 20px;
+}
+.fa-arrow-left {
+    
+    top: 45%;
+    left: 20px;
+}
